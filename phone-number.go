@@ -1,10 +1,10 @@
-package validate
+package phonenumber
 
 import (
 	"errors"
 )
 
-func Validate(number string) (string, error) {
+func Parse(number string) (string, error) {
 
 	constAlpha := []string{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j",
 		"k", "l", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",
