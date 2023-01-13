@@ -5,11 +5,11 @@ This library validates phone numbers
 To install the sort package, you need to first install [Go](https://golang.org/) and set your Go workspace.
 1. You can use the below Go command to install sort
 ```sh
-$ go get -u github.com/hisyntax/phonenumber
+$ go get -u github.com/iqquee/phonenumber
 ```
 2. Import it in your code:
 ```sh
-import "github.com/hisyntax/phonenumber"
+import "github.com/iqquee/phonenumber"
 ```
 # Note: 
 This only works with nigerian number at the moment. But I intend to cover all other country codes as well.
@@ -27,7 +27,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/hisyntax/phonenumber"
+	"github.com/iqquee/phonenumber"
 )
 
 func main() {

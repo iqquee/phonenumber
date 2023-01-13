@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/hisyntax/phonenumber"
+	"github.com/iqquee/phonenumber"
 )
 
 func main() {

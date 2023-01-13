@@ -1,3 +1,3 @@
-module github.com/hisyntax/phonenumber
+module github.com/iqquee/phonenumber
 
 go 1.19
